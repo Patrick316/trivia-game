@@ -1,0 +1,19 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+background-color: lightblue;
+
+  text-align: center;
+}
+
+.jumbotron
+{
+background-color: rgba(0,0,0,.1);
+
+
+
+}

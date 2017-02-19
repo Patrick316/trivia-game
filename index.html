@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row jumbotron">	
+			<div class="col-lg-12 text-center">
+				<h1>Trivia Game</h1>
+		
+			</div>
+		</div>
+	    <div class="row">
+
+	    		         <div class="col-lg-12 col-md-12">
+	    		              <p>timer and score</p>
+	    		                   <button id="start">Start</button>
+             
+                                    <input type="reset" value="Reset">
+                 
+	    	                 </div>
+
+	    	<div class="col-lg-12 col-md-12 question-box" >
+					<form>
+  						<div class="form-group">
+  						
+ 							 <div id="radio-answers">
+ 							 		<h2>Where is Waldo?</h2>
+ 							 		<form action="">	  									
+	    								<input type="radio" name="question-1" value="in the ocean">in the ocean<br />
+	     								<input type="radio" name="question-1" value="Kansas">Kansas<br />
+	           							<input type="radio" name="question-1" value="in the pool">in the pool<br />
+	             						<input type="radio" name="question-1" value="in the book">in the book
+  									</form>
+  									<form action="">
+	    								<h2>What is the capital of New Jersey?</h2>
+	    								<input type="radio" name="question-2" value="Greenberg">Greenberg<br />
+	     							    <input type="radio" name="question-2" value="Franklin">Franklin<br />
+	           							<input type="radio" name="question-2" value="Atlantic City">Atlantic City<br />
+	              						<input type="radio" name="question-2" value="Trenton">Trenton
+  						  			</form>
+  						  			<form action="">
+	    								<h2>What is the capital of Oregon?</h2>
+	    								<input type="radio" name="question-3" value="Salem">Salem<br />
+	      								<input type="radio" name="question-3" value="Fort Henry">Fort Henry<br />
+	            						<input type="radio" name="question-3" value="Los Angele">Los Angeles
+              						</form>
+              						<form action="">
+	              						<h2>What is the capital of Maine?</h2>
+	   									 <input type="radio" name="question-4" value="Frankfurt">Frankfurt<br />
+	    								 <input type="radio" name="question-4" value="New Jersey">New Jersey<br />
+	            						 <input type="radio" name="question-4" value="Augusta">Augusta<br />
+	            	 					 <input type="radio" name="question-4" value="Tokyo">Tokyo
+ 									</form>
+ 									<form action="">
+	  									<h2>What is the capital of Texas?</h2>
+	   									<input type="radio" name="question-5" value="El Paso">El Paso<br />
+	     								<input type="radio" name="question-5" value="Austin">Austin<br />
+	            						<input type="radio" name="question-5" value="San Antonio">San Antonio<br />
+	             						<input type="radio" name="question-5" value="Houstan">Houstan
+             						</form>
+  						</div>
+  						
+  						<button  class="btn btn-default Submit-button">Submit</button>
+				
+				</div>
+
+	    </div>
+	    	
+	    </div>
+  </div>
+
+<script
+  src="http://code.jquery.com/jquery-3.1.1.slim.min.js"
+  integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+  crossorigin="anonymous"></script>
+  <script src="./assets/javascript/questions.js"></script>
+</body>
+</html>
+<!-- 
+object that contains 3 things, choices, answer and question. 
+var calles timer set to 15
+empty array that will take in user answers
+array full correct answers
+reset time with an onclickfunction
+function that subtracts time by 1
+for loop displays answers and question ul
+
+ -->
